@@ -22,8 +22,9 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  output: 'static',
-
+  //output: 'static',
+  site: 'https://salentobtc.com',
+  
   integrations: [
     tailwind({
       applyBaseStyles: false,
