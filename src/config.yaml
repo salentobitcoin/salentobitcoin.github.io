@@ -1,6 +1,6 @@
 site:
   name: Salento Bitcoin
-  site: 'https://astrowind.vercel.app'
+  site: 'https://salentobtc.com'
   base: '/'
   trailingSlash: false
 
