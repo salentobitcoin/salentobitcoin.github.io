@@ -1,7 +1,7 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
-  // links: [
+   links: [
   //   {
   //     text: 'Homes',
   //     links: [
@@ -114,12 +114,12 @@ export const headerData = {
   //     text: 'Widgets',
   //     href: '#',
   //   },
-  // ],
+   ],
   actions: [{ text: 'Telegram', href: 'https://t.me/salentobitcoin', target: '_blank' }],
 };
 
 export const footerData = {
-//   links: [
+   links: [
 //     {
 //       title: 'Product',
 //       links: [
@@ -164,7 +164,7 @@ export const footerData = {
 //         { text: 'Shop', href: '#' },
 //       ],
 //     },
-//   ],
+   ],
   secondaryLinks: [
     { text: 'Terms', href: getPermalink('/terms') },
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
